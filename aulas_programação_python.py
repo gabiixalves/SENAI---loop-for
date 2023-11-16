@@ -649,3 +649,155 @@ from numpy.ma.extras import median
 #   print('não existe')
 # else:
 #   print('Existe')
+
+#AULA 07
+#loop while
+
+
+# contador = 1
+
+# while contador <= 5:
+#   print("número" , contador)
+#   contador += 1
+
+
+# contador = 10
+# while contador > 0:
+#   print(contador)
+#   contador -=1
+#   print('contagem')
+
+
+
+# senha_correta = 'senha123'
+# tentativas = 3
+
+# while tentativas > 0:
+#    senha = input("Digite a senha: ")
+# if senha == senha_correta:
+#       print("Acesso concedido")
+#       break
+# else:
+#     tentativas -= 1
+#     print("Senha incorreta. Tentativas restantes: {tentativas} ")
+
+# if tentativas == 0:
+#    print("Acesso Negado")
+
+
+
+# nome ='ana'
+
+# while nome == 'ana':
+#     print(f'ola {nome}')
+# else:
+#   print(f'ola {nome}')
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Exercícios:
+# **Exercício 1: Contagem regressiva simples**  Escreva um programa que exiba uma contagem regressiva de 10 a 1, e depois imprima "Fogo!".
+
+
+# contador = 10
+
+# while contador > 0:
+#    print(contador)
+#    contador -= 1
+# print('Fogo!')
+
+
+# **Exercício 2: Soma de números pares** Peça ao usuário que insira um número inteiro positivo e, em seguida, calcule a soma de todos os números pares de 2 até o número inserido.
+
+# n= int(input('Digite um número: '))
+# soma_pares = 0
+# c = 2
+
+# while c <= n:
+#   soma_pares += c
+#   c += 2
+
+# print(f'soma do numero {n} é = {soma_pares}')
+
+
+# **Exercício 3: Tabuada de multiplicação** Peça ao usuário para inserir um número inteiro e mostre a tabuada de multiplicação desse número de 1 a 10.
+
+# n = int(input('Digite um número: '))
+# c = 0
+
+# while c <=10:
+#   r = n * c
+#   print(f'{n}X{c} = {r}')
+#   c +=1
+
+
+
+# **Exercício 4: Números ímpares reversos** Exiba uma contagem regressiva de números ímpares de 99 a 1.
+
+# ímpares = 99
+
+# while ímpares > 0:
+#     print(ímpares)
+#     ímpares -= 2
+
+# ------------------------------------------------------------------------------
+# Método Random()
+
+# import random
+
+# n = random.random()
+# print(n)
+
+# -------------------------------------------------
+
+# n = random.randrange(1,10)
+# print(n)
+
+
+# import random
+
+# print('''Jogo de Adivinhação
+# Tente acertar o número da máquina
+# Escolha um número entre 1 e 10!''')
+# numero_da_maquina = random.randint(1,10)
+# chances = 3
+
+
+
+# while chances > 0:
+#   chute = int(input('Digite seu chute: '))
+#   if chute == numero_da_maquina:
+#      print('Sensacional, você acertou, o número da máquina é {numero_da_maquina}')
+#      break
+#   else:
+#     chances -= 1
+#     print('Você errou, o número da máquina é {número_da_máquina}')
+
+
+# -----------------------------------------------------------------------------
+
+#EXERCÍCIOS
+# **1 - Crie um número aleatório de 10, 5**
+# import random
+
+# n = random.randint(5,10)
+# print(n)
+
+
+# **2 - Crie 3 números aleatórios**
+
+# import random
+
+# n = random.random()
+# print(n)
+# n = random.random()
+# print(n)
+# n = random.random()
+# print(n)
+
+# **3 - Crie um número aleatório entre 10 a 30 utilize o range()**
+
+# import random
+
+# n = random.randrange(10,30)
+# print(n)
