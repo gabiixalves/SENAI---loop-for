@@ -420,8 +420,6 @@ from pygments.token import Name
 
 #-------------------------------------------------------------------------------
 
-from numpy.ma.extras import median
-
 #AULA 05
 
 # len(): Retorna o comprimento de uma sequência, como uma string, lista ou tupla.
@@ -776,7 +774,7 @@ from numpy.ma.extras import median
 
 # -----------------------------------------------------------------------------
 
-#EXERCÍCIOS
+#EXERCÍCIOS DA AULA 07
 # **1 - Crie um número aleatório de 10, 5**
 # import random
 
@@ -801,3 +799,134 @@ from numpy.ma.extras import median
 
 # n = random.randrange(10,30)
 # print(n)
+
+#AULA 08
+#TUPLAS
+
+# minha_tupla = (1,3,653,25,69,87,5)
+# print(minha_tupla[0])
+
+
+# my= (1,3,65,985,5)
+# outra = my[2]
+# print(outra)
+
+
+
+######################### **EXERCÍCIOS:**##################################
+
+# 1 -  Crie uma tupla chamada `frutas` com pelo menos 5 frutas diferentes. Em seguida, acesse e imprima o terceiro elemento da tupla.
+
+# my = ('banana', 'maca', 'uva', 'abacate', 'manga')
+# print(my[2])
+
+# 2 - Crie uma tupla chamada `numeros` com alguns números inteiros. Em seguida, converta essa tupla em uma lista e imprima a lista resultante.
+
+# tupla_numeros = (2,65,8,47,156,3)
+# n = list(tupla_numeros)
+# print(n)
+
+# 3 - Crie uma tupla chamada `meses` com os nomes dos meses do ano até Setembro. Use um loop `for` para imprimir cada mês em uma linha separada.
+
+# meses = ('janeiro','fevereiro','marco','abril','maio','junho' , 'julho' , 'agosto' , 'setembro')
+# for n in meses:
+#   print(n)
+
+
+# 4 - Crie uma lista chamada `notas` com algumas notas de alunos. Em seguida, converta essa lista em uma tupla e imprima a tupla resultante.
+
+# list_nota = [7,8,9,6,3,4]
+# i = (list_nota)
+# print(i)
+
+# 5 - Crie uma lista chamada `ponto` que represente as coordenadas (x, y) de um ponto. Em seguida, desempacote os elementos da lista em duas variáveis separadas (x e y) e imprima os valores.
+
+# ponto = (10,20)
+# x, y = ponto
+# print(f'eixo x = {x}')
+# print(f'eixo y = {y}')
+
+
+
+########################## FUNÇÕES E PYTHON: ###################################
+# def nome():
+
+# def somar():
+#   print(2+6)
+
+# somar()
+
+# n1 = 20
+# n2 = 61
+
+# #globais == podem ser utilizados em quaquer lugar
+
+# def somar():
+#   #locais == ´so dentro da função
+#   print('soma', n1+n2)
+
+# def subtrair():
+#   print('subtração', n1-n2)
+
+# somar()
+
+############################ DEF-CALCULADORA ###################################
+
+def calculadora_soma(x,y):
+    print(x+y)
+
+def cal_subt(x , y):
+    print(x-y)
+
+def cal_mult(x , y):
+    print(x*y)
+
+def cal_div(x , y):
+    print(x/y)
+
+
+
+n = float(input('Digite um número: '))
+n2 = float(input('Digite um número: '))
+
+
+calculadora_soma(n,n2)
+cal_subt(n,n2)
+cal_mult(n,n2)
+cal_div(n,n2)
+
+######################### **EXERCÍCIOS:**##################################
+
+
+# 1 -  Crie uma tupla chamada `frutas` com pelo menos 5 frutas diferentes. Em seguida, acesse e imprima o terceiro elemento da tupla.
+
+# my = ('banana', 'maca', 'uva', 'abacate', 'manga')
+# print(my[2])
+
+# 2 - Crie uma tupla chamada `numeros` com alguns números inteiros. Em seguida, converta essa tupla em uma lista e imprima a lista resultante.
+
+# tupla_numeros = (2,65,8,47,156,3)
+# n = list(tupla_numeros)
+# print(n)
+
+# 3 - Crie uma tupla chamada `meses` com os nomes dos meses do ano até Setembro. Use um loop `for` para imprimir cada mês em uma linha separada.
+
+# meses = ('janeiro','fevereiro','marco','abril','maio','junho' , 'julho' , 'agosto' , 'setembro')
+# for n in meses:
+#   print(n)
+
+
+# 4 - Crie uma lista chamada `notas` com algumas notas de alunos. Em seguida, converta essa lista em uma tupla e imprima a tupla resultante.
+
+# list_nota = [7,8,9,6,3,4]
+# i = (list_nota)
+# print(i)
+
+# 5 - Crie uma lista chamada `ponto` que represente as coordenadas (x, y) de um ponto. Em seguida, desempacote os elementos da lista em duas variáveis separadas (x e y) e imprima os valores.
+
+# ponto = (10,20)
+# x, y = ponto
+# print(f'eixo x = {x}')
+# print(f'eixo y = {y}')
+
+#AULA 09
